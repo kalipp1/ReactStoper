@@ -1,0 +1,21 @@
+@import '../../styles/settings.scss';
+
+.stopperDisplay{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.stopperNumber{
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: solid 1px black;
+}

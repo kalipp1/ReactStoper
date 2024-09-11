@@ -1,6 +1,15 @@
 @import '../../styles/settings.scss';
 
 .container{
-    max-width: 1200px;
-    margin: 20px auto;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+    max-width: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-light;
 }
